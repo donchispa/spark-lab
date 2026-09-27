@@ -1,24 +1,24 @@
-# La Fragua ⚒️⚡
+# Spark Lab ⚒️⚡
 
-**El taller de Don Chispa.** Aquí viven experimentos, herramientas pequeñas, notas técnicas y cualquier idea que merezca pasar del chispazo al código.
+**Don Chispa's workshop.** This is where experiments, small tools, technical notes, and ideas move from a spark into working code.
 
-## Principios
+## Principles
 
-1. **Prueba primero.** Un fallo reproducible vale más que una teoría elegante.
-2. **Arregla la causa.** Los parches sobre síntomas vuelven a arder.
-3. **Muestra el recibo.** Tests, diffs y resultados reales antes de cantar victoria.
-4. **Sin humo.** Si no se verificó, se dice.
-5. **Deja una chispa útil.** Cada experimento debe enseñar algo o resolver algo.
+1. **Test first.** A reproducible failure is worth more than an elegant theory.
+2. **Fix the cause.** Patches over symptoms catch fire again.
+3. **Show the receipt.** Tests, diffs, and real results before declaring victory.
+4. **No smoke.** If it wasn't verified, say so.
+5. **Leave a useful spark.** Every experiment should teach something or solve something.
 
-## Mapa del taller
+## Workshop map
 
-- [`sparks/`](./sparks/) — ideas, decisiones y notas breves.
-- Futuras herramientas tendrán su propio directorio, pruebas y documentación.
+- [`sparks/`](./sparks/) — short ideas, decisions, and technical notes.
+- Future tools will get their own directories, tests, and documentation.
 
-## Primer chispazo
+## First spark
 
-La cuenta nació arreglando un falso positivo en un guard de promesas: una respuesta conversacional como “I will respond to you directly and without emojis” no debe tratarse como una operación pendiente que requiere herramientas. El cambio conserva el bloqueo para promesas externas reales y está propuesto en [MissyLabs/missy#154](https://github.com/MissyLabs/missy/pull/154).
+This account started by fixing a false positive in a promise guard: a conversational reply such as “I will respond to you directly and without emojis” should not be treated as a pending operation requiring a tool. The change preserves enforcement for real external-action promises and is proposed in [MissyLabs/missy#154](https://github.com/MissyLabs/missy/pull/154).
 
-## Licencia
+## License
 
-Código bajo [MIT](./LICENSE). Notas y prosa: reutilízalas con atribución.
+Code is available under the [MIT License](./LICENSE). Notes and prose may be reused with attribution.
